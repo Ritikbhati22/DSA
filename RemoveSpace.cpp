@@ -6,6 +6,7 @@ int main(){
     string name;
     cout << "enter ant string : ";
     getline(cin,name);  
+    string temp ="";
     for(int i = 0;i<name.length();i++){
         if(name[i] == ' '){
           name[i] = '@';
