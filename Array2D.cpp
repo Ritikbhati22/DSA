@@ -1,5 +1,18 @@
 #include<iostream>
 using namespace std;
+bool tochecktarget(int arr[][3],int target,int row,int col){
+    {
+for(int i =0;i<2;i++){
+    for(int j=0;j<2;j++){
+        if(target == arr[i][j]){
+            return 1;
+        }
+        return 0;
+    }
+}
+    }
+
+}
 int main(){
 int arr[2][2];
 for(int i=0;i<2;i++){
@@ -13,6 +26,9 @@ for(int i=0;i<2;i++){
 
     cout << arr[i][j]<< " ";
     }
+
     cout <<endl;
-}
+    int target;
+    cin >> target;
+    if(tochecktarget(arr,target,i,j);
 }
