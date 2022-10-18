@@ -32,7 +32,6 @@ int LargestNum(int arr[][3], int row, int col)
     }
     cout <<"THE LARGEST NUM: " <<maxi;
     return rowindex;
-    // cout << maxi;
 }
 
 int main()
